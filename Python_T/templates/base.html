@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+    <style>
+        nav {
+            padding: 0px, 30px;
+            display: flex;
+            gap: 20px;
+            height: 25px;
+        }
+        nav a {
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            padding: 10px, 15px;
+        }
+        nav a:hover {
+            color: white;
+        }
+
+    </style>
+</head> 
+<body>
+    <nav>
+        <a href="{% url 'home' %}" style="color: rgb(26, 0, 131);">Home</a>
+        <a href="{% url 'history' %}" style="color: rgb(26, 0, 131);">History</a>
+        <a href="{% url 'frem' %}" style="color: rgb(26, 0, 131);">Frameworks</a>
+        <a href="{% url 'lib' %}" style="color: rgb(26, 0, 131);">Libraries</a>
+        <a href="{% url 'doc' %}" style="color: rgb(26, 0, 131);">Documentation</a>
+    </nav>
+
+    {% block Malumot %}
+    {% endblock %}
+</body>
+</html>

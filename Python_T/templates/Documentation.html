@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}
+    Documentation
+{% endblock %}
+
+{% block Malumot %}
+    <head>
+        <style>
+            li {
+                color: rgb(255, 213, 123);
+            }
+        </style>
+    </head>
+    <body style="background-image: url(https://avatars.mds.yandex.net/i?id=32cb04c8fc421e9940c5621a2e17dcaa7c90f32d-9151021-images-thumbs&n=13); background-size: cover;">
+        <h1 style="color: rgb(0, 126, 0);">PYTHON DOCUMENTATION</h1>
+        <p style="font-size: 25px; color: rgb(208, 255, 0);"> The Python Standard Library:</p>
+        <td>
+            <li>The Python Standard Library is a collection of modules and packages that come bundled with Python. It includes built-in functionality for handling file I/O, string manipulation, mathematical operations, and much more.</li>
+            <li>Common modules include os, sys, math, datetime, json, etc.</li>
+            <li>How to use it: To access the documentation for any module, use the following URL structure:
+                https://docs.python.org/3/library/<module_name>.html</li>
+        </td>
+        <p style="font-size: 25px; color: rgb(208, 255, 0);"> Language Reference:</p>
+        <td>
+            <li>This section provides an in-depth explanation of the syntax and semantics of the Python programming language.</li>
+            <li>It covers everything from the basic structure of Python programs, operators, data types, control flow, to advanced features like decorators, generators, and metaclasses.</li>
+        </td>
+        <p style="font-size: 25px; color: rgb(208, 255, 0);">Tutorial:</p>
+        <td>
+            <li>The Python tutorial is designed for beginners and provides a hands-on guide to understanding Python basics. It walks you through setting up Python, writing simple programs, and gradually introduces more advanced features.</li>
+
+        </td>
+        <p style="font-size: 25px; color: rgb(208, 255, 0);">Python HOWTOs:</p>
+        <td>
+            <li>HOWTOs provide practical solutions to common problems or tasks you might encounter while programming in Python.</li>
+            <li>Topics include things like creating and managing virtual environments, debugging, and writing unit tests.</li>
+
+        </td>
+    </body>
+
+{% endblock %}
