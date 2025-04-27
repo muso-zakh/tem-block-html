@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    {{ infos.name }}
+{% endblock %}
+
+{% block Malumot %}
+    <body id="b2">
+        <ul>
+            <h1 id="h1_2">{{ infos.name }}</h1>
+        </ul>    
+        <ul>
+            <img id="infos_img" src="{% static img %}" alt="">
+            <h2 id="profession">Profession: {{ infos.profession }}</h2>
+            <p id="biography">BIOGRAPHY: {{ infos.biography }}</p>
+        </ul>
+    </body>
+{% endblock %}

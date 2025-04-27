@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Mashhur shaxslar
+{% endblock %}
+
+{% block Malumot %}
+    <body id="b1">
+        <h1 id="h1">Mashhur shaxslar</h1>
+        
+        <ul>
+            {% for i in name %}
+                    <p>
+                        <a href="{% url 'info' forloop.counter0 %}" class="imageee">
+                            <img id="inter" src="{% static 'images/' %}{{ forloop.counter }}.webp" alt="">
+                            <span>{{ i }}</span>
+                        </a>
+                    </p>
+                
+
+                
+            {% endfor %}
+        </ul>
+    </body>
+{% endblock %}

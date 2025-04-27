@@ -1,0 +1,44 @@
+#inter {
+    width: 100px;
+    position: relative;
+    border-radius: 20px;
+}
+
+#b1 {
+    background-image: url(https://avatars.mds.yandex.net/i?id=3a9a5b67d0ea7cc58f3831b7eef0366d7fb9dcb1-5042077-images-thumbs&n=13);
+    background-size: cover;
+}
+
+#b2 {
+    background-image: url(https://avatars.mds.yandex.net/i?id=189e7d56acdca490f6adf280a13b237a5e3aa07f-5616093-images-thumbs&n=13);
+    background-size: cover;
+}
+
+.imageee span {
+    color: rgb(0, 113, 24);
+    font-size: 28px;
+    padding: 5px;
+    bottom: 30px;
+
+}
+
+#infos_img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#h1 {
+    color: rgb(255, 255, 0);
+}
+
+#h1_2 {
+    color: blue;
+}
+
+#profession {
+    color: cyan;
+}
+
+#biography {
+    color: rgb(0, 255, 187)
+}
